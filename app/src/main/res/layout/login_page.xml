@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gameWonConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C8B0F3">
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            tools:ignore="ImageContrastCheck"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="111dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="@string/signUp"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <TextView
+            android:id="@+id/Search"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:hint="Username"
+            android:textColorHint="@color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="259dp" />
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

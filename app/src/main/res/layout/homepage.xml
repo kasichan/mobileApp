@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gameWonConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C8B0F3">
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="410dp"
+            android:layout_height="174dp"
+            android:contentDescription="@string/banner"
+            tools:ignore="ImageContrastCheck"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="82dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/menuBar"
+            android:layout_width="408dp"
+            android:layout_height="60dp"
+            android:text="Menu Bar"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="682dp" />
+
+        <TextView
+            android:id="@+id/Search"
+            android:layout_width="272dp"
+            android:layout_height="30dp"
+            android:hint="Search"
+            android:textColorHint="@color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="88dp"
+            android:layout_height="77dp"
+            app:srcCompat="@android:drawable/checkbox_off_background"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="88dp"
+            android:layout_height="77dp"
+            app:srcCompat="@android:drawable/checkbox_off_background"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="381dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="88dp"
+            android:layout_height="77dp"
+            app:srcCompat="@android:drawable/checkbox_off_background"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="381dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="88dp"
+            android:layout_height="77dp"
+            app:srcCompat="@android:drawable/checkbox_off_background"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="381dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="88dp"
+            android:layout_height="77dp"
+            app:srcCompat="@android:drawable/checkbox_off_background"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="88dp"
+            android:layout_height="77dp"
+            app:srcCompat="@android:drawable/checkbox_off_background"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
